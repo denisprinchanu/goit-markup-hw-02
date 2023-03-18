@@ -1,0 +1,68 @@
+body {
+    font-family:  Roboto, Raleway;
+}
+
+.header {
+
+}
+
+.header-logo {
+font-weight: 800;
+font-size: 18px;
+line-height: 1.16;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+
+.header-logo-1 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2E2F42;
+    
+}
+
+
+.contacts {
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+
+}
+
+
+
+.nav {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.header-nav {
+}
+.portfolio-button {
+}
+.portfolio-button-items {
+}
+.portfolio-row-one {
+}
+.row-one {
+}
+.portfolio-row-two {
+}
+.row-two {
+}
+.portfolio-row-three {
+}
+.row-three {
+}
