@@ -39,6 +39,7 @@ list-style: none;
 
 
 .header-link {
+cursor: pointer;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
@@ -46,7 +47,7 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: #4d5ae5;
 font-family: "Roboto", sans-serif;
 background-color:#F4F4FD
 }
@@ -117,7 +118,18 @@ font-family: "Raleway", sans-serif;
     color:#404bbf; 
 }
 
+.nav:focus {
+    color:#404bbf; 
+}
 
+.contacts {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
 
 .contacts-item {
 font-style: normal;
@@ -232,6 +244,7 @@ color: #FFFFFF;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .second-text {
