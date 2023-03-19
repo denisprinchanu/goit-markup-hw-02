@@ -91,7 +91,9 @@ font-family: "Raleway", sans-serif;
 
 
 
-
+.nav-text-header:focus{
+    color: #404bbf;
+}
 
 
 .nav  {
