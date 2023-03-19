@@ -1,9 +1,21 @@
-body {
+body{
     font-family:  Roboto, Raleway;
+    color:#2E2F42;
 }
 
-.header {
 
+
+
+
+.list {
+list-style: none;
+}
+
+
+
+.header-link:hover {
+    background-color:#404BBF;
+    color:#FFFFFF;
 }
 
 .header-logo {
@@ -26,9 +38,17 @@ color: #4D5AE5;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #2E2F42;
-    
 }
 
+
+.nav {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    }
+    
 
 .contacts {
  font-weight: 400;
@@ -36,33 +56,45 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
-
 }
 
 
 
-.nav {
+
+
+
+.portfolio-button-items 
+{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+
+
+.main-photo-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.second-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.footer-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
-}
-.header-nav {
-}
-.portfolio-button {
-}
-.portfolio-button-items {
-}
-.portfolio-row-one {
-}
-.row-one {
-}
-.portfolio-row-two {
-}
-.row-two {
-}
-.portfolio-row-three {
-}
-.row-three {
+color: #F4F4FD;
 }
