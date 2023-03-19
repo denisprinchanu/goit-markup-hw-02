@@ -32,10 +32,26 @@ list-style: none;
     font-family: "Raleway", sans-serif;
 }
 
-.header-link:hover {
+.header-link:is(:hover, :focus) {
     background-color:#404bbf;
     color:#FFFFFF;
 }
+
+
+.header-link {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+font-family: "Roboto", sans-serif;
+background-color:#F4F4FD
+}
+
+
 
 .header-logo  {
 font-weight: 800;
@@ -48,7 +64,6 @@ text-transform: uppercase;
 color: #4D5AE5;
 font-family: "Raleway", sans-serif;
 }
-
 
 
 
@@ -98,8 +113,14 @@ font-family: "Raleway", sans-serif;
         color: inherit;
 }
 
+.nav:is(:hover, :focus) {
+    color:#404bbf; 
+}
+
+
 
 .contacts-item {
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
@@ -180,6 +201,7 @@ color:#404bbf;
     text-align: center;
     letter-spacing: 0.02em;
     text-transform: capitalize; 
+    color:#2e2f42;
 }
 
 
@@ -187,7 +209,9 @@ color:#404bbf;
     background-color: #FFFFFF;
 }
 
-
+.person {
+    background-color: #FFFFFF
+}
 
 
 .portfolio-button-items 
