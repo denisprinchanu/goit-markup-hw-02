@@ -111,18 +111,13 @@ font-family: "Raleway", sans-serif;
 }
 
 
-.nav  a {
-    text-decoration: none;
-        color: inherit;
-}
+
 
 .nav:is(:hover, :focus) {
     color:#404bbf; 
 }
 
-.nav:focus {
-    color:#404bbf; 
-}
+
 
 .contacts {
 font-style: normal;
