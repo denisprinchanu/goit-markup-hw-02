@@ -1,4 +1,8 @@
 
+/* між сусідніми елементами margin в li */
+
+
+
 :root { 
     --main-title-color: #ffffff;
     --second-title-color:#2E2F42;
@@ -17,10 +21,35 @@ body{
 
 
 
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin:0;
+}
+
+
+.container {
+    width: 1440px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+
+}
+
+img {
+    display: block;
+}
+
+
+
 .link {
     text-decoration: none;
 }
-
 
 
 .list {
@@ -28,9 +57,9 @@ list-style: none;
 }
 
 
-
 .header {
     font-family: "Raleway", sans-serif;
+    padding-top: 24px;
 }
 
 .header-link:is(:hover, :focus) {
